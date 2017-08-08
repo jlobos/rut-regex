@@ -1,6 +1,6 @@
 {
   "name": "rut-regex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Regular expression for matching Chile RUTs",
   "license": "MIT",
   "repository": "jlobos/rut-regex",
