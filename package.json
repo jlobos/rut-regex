@@ -1,0 +1,32 @@
+{
+  "name": "rut-regex",
+  "version": "0.0.0",
+  "description": "Regular expression for matching Chile RUTs",
+  "license": "MIT",
+  "repository": "jlobos/rut-regex",
+  "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "chile",
+    "rut",
+    "regex",
+    "expresion regular"
+  ],
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "xo": "^0.18.2"
+  }
+}
