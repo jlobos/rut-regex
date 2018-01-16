@@ -72,6 +72,7 @@ Hyphen (-) in RUT.
 ## Related
 
 - [rut.js](https://github.com/jlobos/rut.js) - Sencilla y pequeña librería para validar y dar formato al RUT
+- [rutificador](https://github.com/lopezjurip/rutificador) - Get chilean RUT from people's name or vice versa from [Rutify – Rutificador](https://rutify.cl/).
 
 ## License
 
