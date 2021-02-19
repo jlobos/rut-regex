@@ -1,5 +1,5 @@
-import test from 'ava'
-import r from './'
+const test = require('ava')
+const r = require('./index.js')
 
 test('match exact RUT', t => {
   t.true(r({exact: true}).test('18.972.631-7'))
@@ -39,10 +39,10 @@ test('match RUTs in text', t => {
     </ul>
   `
 
-  t.deepEqual([
+  t.deepEqual(fixture.match(r()), [
     '18.714.763-0',
     '18.972.631-7',
     '12.585.741-8',
     '10-8'
-  ], fixture.match(r()))
+  ])
 })
