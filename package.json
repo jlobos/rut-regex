@@ -4,7 +4,10 @@
   "description": "Regular expression for matching Chile RUTs",
   "license": "MIT",
   "repository": "jlobos/rut-regex",
-  "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com/)",
+  "author": {
+    "name": "Jesus Lobos",
+    "email": "jlobitu@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"
@@ -26,7 +29,7 @@
     "expresion regular"
   ],
   "devDependencies": {
-    "ava": "^0.21.0",
-    "xo": "^0.18.2"
+    "ava": "^3.15.0",
+    "xo": "^0.37.1"
   }
 }

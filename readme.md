@@ -1,8 +1,5 @@
 # rut-regex
 
-[![Build Status](https://travis-ci.org/jlobos/rut-regex.svg?branch=master)](https://travis-ci.org/jlobos/rut-regex)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-
 > Regular expression for matching Chile RUT's
 
 ## Install
@@ -11,7 +8,7 @@
 $ npm install --save rut-regex
 ```
 
-## Usage 
+## Usage
 
 ```js
 const rutRegex = require('rut-regex')
@@ -72,8 +69,3 @@ Hyphen (-) in RUT.
 ## Related
 
 - [rut.js](https://github.com/jlobos/rut.js) - Sencilla y pequeña librería para validar y dar formato al RUT
-- [rutificador](https://github.com/lopezjurip/rutificador) - Get chilean RUT from people's name or vice versa from [Rutify – Rutificador](https://rutify.cl/).
-
-## License
-
-MIT © [Jesus Lobos](https://jlobos.com/)

@@ -1,9 +1,9 @@
-module.exports = opts => {
-  opts = Object.assign({dot: true, hyphen: true}, opts)
+module.exports = options => {
+  options = Object.assign({dot: true, hyphen: true}, options)
 
-  const dot = opts.dot ? '\\.' : '\\.?'
-  const hyphen = opts.hyphen ? '-' : '-?'
+  const dot = options.dot ? '\\.' : '\\.?'
+  const hyphen = options.hyphen ? '-' : '-?'
   const regex = `0*(\\d{1,3}(${dot}\\d{3})*)${hyphen}([\\dkK])`
 
-  return opts.exact ? new RegExp(`^${regex}$`, 'i') : new RegExp(regex, 'ig')
+  return options.exact ? new RegExp(`^${regex}$`, 'i') : new RegExp(regex, 'ig')
 }
